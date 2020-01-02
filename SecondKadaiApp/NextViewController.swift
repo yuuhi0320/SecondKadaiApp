@@ -16,7 +16,7 @@ class NextViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         nameLabel.text = "こんにちは、\(name)さん"
-        
+        print(name)
     }
     
 

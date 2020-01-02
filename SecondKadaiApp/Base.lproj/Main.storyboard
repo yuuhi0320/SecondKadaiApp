@@ -68,14 +68,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DJQ-5g-RZm">
-                                <rect key="frame" x="50" y="421" width="314" height="187"/>
+                                <rect key="frame" x="190" y="221" width="34" height="487"/>
                                 <state key="normal" title="back"/>
                                 <connections>
                                     <segue destination="Z6c-Ti-Lqs" kind="unwind" unwindAction="unwind:" id="7Rk-1k-3Oh"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eK8-2N-Bf2">
-                                <rect key="frame" x="50" y="200" width="314" height="21"/>
+                                <rect key="frame" x="186" y="100" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -83,15 +83,11 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="DJQ-5g-RZm" firstAttribute="centerX" secondItem="C3M-PU-xgu" secondAttribute="centerX" id="21T-G8-Fvx"/>
-                            <constraint firstItem="DJQ-5g-RZm" firstAttribute="top" secondItem="eK8-2N-Bf2" secondAttribute="bottom" constant="200" id="4rv-Ig-arD"/>
-                            <constraint firstItem="eK8-2N-Bf2" firstAttribute="top" secondItem="b7E-e9-Hxs" secondAttribute="top" constant="200" id="6eV-c7-jag"/>
-                            <constraint firstItem="eK8-2N-Bf2" firstAttribute="leading" secondItem="b7E-e9-Hxs" secondAttribute="leading" constant="50" id="PYy-cE-YYW"/>
-                            <constraint firstItem="eK8-2N-Bf2" firstAttribute="centerX" secondItem="C3M-PU-xgu" secondAttribute="centerX" id="USA-Od-WTB"/>
-                            <constraint firstItem="b7E-e9-Hxs" firstAttribute="trailing" secondItem="eK8-2N-Bf2" secondAttribute="trailing" constant="50" id="XSU-A2-HVm"/>
-                            <constraint firstItem="b7E-e9-Hxs" firstAttribute="bottom" secondItem="DJQ-5g-RZm" secondAttribute="bottom" constant="200" id="ZaD-Xl-uEE"/>
-                            <constraint firstItem="DJQ-5g-RZm" firstAttribute="leading" secondItem="b7E-e9-Hxs" secondAttribute="leading" constant="50" id="ieZ-7I-mLb"/>
-                            <constraint firstItem="b7E-e9-Hxs" firstAttribute="trailing" secondItem="DJQ-5g-RZm" secondAttribute="trailing" constant="50" id="u6H-ky-9su"/>
+                            <constraint firstItem="eK8-2N-Bf2" firstAttribute="centerX" secondItem="C3M-PU-xgu" secondAttribute="centerX" id="1fV-ts-Qvy"/>
+                            <constraint firstItem="eK8-2N-Bf2" firstAttribute="top" secondItem="b7E-e9-Hxs" secondAttribute="top" constant="100" id="YY3-b4-7Xf"/>
+                            <constraint firstItem="DJQ-5g-RZm" firstAttribute="centerX" secondItem="C3M-PU-xgu" secondAttribute="centerX" id="b6e-Vc-dXX"/>
+                            <constraint firstItem="b7E-e9-Hxs" firstAttribute="bottom" secondItem="DJQ-5g-RZm" secondAttribute="bottom" constant="100" id="h5l-4D-Eig"/>
+                            <constraint firstItem="DJQ-5g-RZm" firstAttribute="top" secondItem="eK8-2N-Bf2" secondAttribute="bottom" constant="100" id="oPn-gy-xTs"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="b7E-e9-Hxs"/>
                     </view>
